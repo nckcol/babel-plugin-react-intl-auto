@@ -82,7 +82,7 @@
     "prettier": "2.2.1",
     "react-intl": "4.7.6",
     "string-snapshot-serializer": "1.0.1",
-    "typescript": "3.9.9"
+    "typescript": "4.2.3"
   },
   "husky": {
     "hooks": {
