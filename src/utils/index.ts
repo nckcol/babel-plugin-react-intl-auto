@@ -20,7 +20,7 @@ export const objectProperty = (
   value: string | t.StringLiteral | t.TemplateLiteral
 ) => {
   const valueNode = typeof value === 'string' ? t.stringLiteral(value) : value
-  return t.objectProperty(t.stringLiteral(key), valueNode)
+  return t.objectProperty(t.identifier(key), valueNode)
 }
 
 export function getObjectProperties(path: NodePath) {

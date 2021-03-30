@@ -13,15 +13,15 @@ intl.formatMessage({ defaultMessage: "some other message" });
 import { injectIntl } from 'react-intl';
 intl.formatMessage({
   defaultMessage: "hello",
-  "id": "src.__fixtures__.613153351"
+  id: "src.__fixtures__.613153351"
 });
 intl.formatMessage({
   defaultMessage: "hello",
-  "id": "src.__fixtures__.613153351"
+  id: "src.__fixtures__.613153351"
 });
 intl.formatMessage({
   defaultMessage: "some other message",
-  "id": "src.__fixtures__.831373691"
+  id: "src.__fixtures__.831373691"
 });
 
 `;
@@ -49,15 +49,15 @@ const Component2 = ({
 }) => {
   const label = intl.formatMessage({
     defaultMessage: "hello",
-    "id": "src.__fixtures__.613153351"
+    id: "src.__fixtures__.613153351"
   });
   return <button aria-label={intl.formatMessage({
     defaultMessage: "hello",
-    "id": "src.__fixtures__.613153351"
+    id: "src.__fixtures__.613153351"
   })}>
       {intl.formatMessage({
       defaultMessage: "hello",
-      "id": "src.__fixtures__.613153351"
+      id: "src.__fixtures__.613153351"
     })}
     </button>;
 };
@@ -77,7 +77,7 @@ intl.formatMessage({ defaultMessage: "i18n" });
 import { injectIntl as i18n } from 'react-intl';
 intl.formatMessage({
   defaultMessage: "i18n",
-  "id": "src.__fixtures__.94348014"
+  id: "src.__fixtures__.94348014"
 });
 
 `;
@@ -93,7 +93,7 @@ intl.formatMessage({ defaultMessage: "hello" });
 import { injectIntl } from 'react-intl';
 intl.formatMessage({
   defaultMessage: "hello",
-  "id": "src.__fixtures__.613153351"
+  id: "src.__fixtures__.613153351"
 });
 
 `;
@@ -109,7 +109,7 @@ intl.formatMessage({ defaultMessage: \`template string 2\` });
 import { injectIntl } from 'react-intl';
 intl.formatMessage({
   defaultMessage: \`template string 2\`,
-  "id": "src.__fixtures__.1045198380"
+  id: "src.__fixtures__.1045198380"
 });
 
 `;
@@ -128,7 +128,7 @@ import { injectIntl } from 'react-intl';
 const message = "variable message";
 intl.formatMessage({
   defaultMessage: message,
-  "id": "src.__fixtures__.3082794952"
+  id: "src.__fixtures__.3082794952"
 });
 
 `;
@@ -159,7 +159,7 @@ intl.formatMessage({ defaultMessage: "custom prop", other: 123 });
 import { injectIntl } from 'react-intl';
 intl.formatMessage({
   defaultMessage: "custom prop",
-  "id": "src.__fixtures__.2983810267",
+  id: "src.__fixtures__.2983810267",
   other: 123
 });
 
@@ -176,7 +176,7 @@ intl.formatMessage({ defaultMessage: "hello" });
 import { injectIntl } from 'react-intl';
 intl.formatMessage({
   defaultMessage: "hello",
-  "id": "src.__fixtures__.messages.613153351"
+  id: "src.__fixtures__.messages.613153351"
 });
 
 `;
@@ -192,7 +192,7 @@ intl.formatMessage({ defaultMessage: "hello" });
 import { injectIntl } from 'react-intl';
 intl.formatMessage({
   defaultMessage: "hello",
-  "id": "__fixtures__.613153351"
+  id: "__fixtures__.613153351"
 });
 
 `;
@@ -208,7 +208,7 @@ intl.formatMessage({ defaultMessage: "hello" });
 import { injectIntl } from 'react-intl';
 intl.formatMessage({
   defaultMessage: "hello",
-  "id": "613153351"
+  id: "613153351"
 });
 
 `;
@@ -224,7 +224,7 @@ intl.formatMessage({ defaultMessage: "hello" });
 import { injectIntl } from 'react-intl';
 intl.formatMessage({
   defaultMessage: "hello",
-  "id": "__fixtures__.613153351"
+  id: "__fixtures__.613153351"
 });
 
 `;
@@ -240,7 +240,7 @@ intl.formatMessage({ defaultMessage: "hello" });
 import { injectIntl } from 'react-intl';
 intl.formatMessage({
   defaultMessage: "hello",
-  "id": "src.613153351"
+  id: "src.613153351"
 });
 
 `;
@@ -256,7 +256,7 @@ intl.formatMessage({ defaultMessage: "hello" });
 import { injectIntl } from 'react-intl';
 intl.formatMessage({
   defaultMessage: "hello",
-  "id": "src.__fixtures__.613153351"
+  id: "src.__fixtures__.613153351"
 });
 
 `;
